@@ -1,4 +1,9 @@
- // Sección 1: Información de un libro favorito
+ //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        
+        // Sección 1: Información de un libro favorito
         System.out.println("Título: Los secretos de la mente millonaria");
         System.out.println("Autor: T. Harv Eker");
         System.out.println("Año de publicación: 2005");
@@ -21,8 +26,9 @@
         System.out.println("Moneda: " + moneda);
 
 
+
         // Sección 3: Información de un personaje histórico favorito
-        // Almacenando la información en variables
+       
         String nombreCompleto = "Sócrates";
         String fechaNacimiento = "470 a.C.";
         String nacionalidad = "Griega";
@@ -35,8 +41,5 @@
         System.out.println("Nacionalidad: " + nacionalidad);
         System.out.println("Ocupación: " + ocupacion);
         System.out.println("Logro destacado: " + logroDestacado);
-
-
-
+        }
     }
-}
